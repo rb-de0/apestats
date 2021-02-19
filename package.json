@@ -1,0 +1,32 @@
+{
+  "name": "apestats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rb_de0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write pages/**"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "printWidth": 200,
+    "semi": false,
+    "singleQuote": true
+  }
+}
